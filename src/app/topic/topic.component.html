@@ -1,18 +1,23 @@
-<p>Topics</p>
-<button (click)="onClickTopic()">Get random Topic</button>
+<h3 style="color:black">Topics</h3>
+<button (click)="onClickAllTopic()">...</button>
+<button (click)="onClickRandomTopic()">Ein zufälliges Thema</button>
+<hr>
+<hr>
+<h3 style="color:green">Tools</h3>
+<button (click)="onClickAllTools()">...</button>
+<button (click)="onClickRandomTools()">Ein zufälliges Tool</button>
+<hr>
+<h3 style="color:blue">Languages & Frameworks</h3>
+<button (click)="onClickAllLanguagesFrameworks()">...</button>
+<button (click)="onClickRandomLanguagesFrameworks()">Ein zufälliges Language/Framework</button>
+<hr>
+<h3 style="color:orangered">Platforms</h3>
+<button (click)="onClickAllPlatforms()">...</button>
+<button (click)="onClickRandomPlatforms()">Ein zufälliges Platform</button>
+<hr>
+<h3 style="color:purple">Techniques</h3>
+<button (click)="onClickAllTechniques()">...</button>
+<button (click)="onClickRandomTechniques()">Ein zufälliges Technique</button>
 
 <hr>
-<p>Tools</p>
-<button (click)="onClickTools()">Get random Tool</button>
-<hr>
-<p>Languages & Frameworks</p>
-<button (click)="onClickLanguagesFrameworks()">Get random Language/Framework</button>
-<hr>
-<p>Platforms</p>
-<button (click)="onClickPlatforms()">Get random Platform</button>
-<hr>
-<p>Techniques</p>
-<button (click)="onClickTechniques()">Get random Technique</button>
-
-<hr>
-<b style="font-size: 40px">{{clickMessage}}</b>
+<b>{{clickMessage}}</b>
